@@ -1,7 +1,6 @@
-require 'spec_helper'
-require 'api_constraints'
+require 'rails_helper'
 
-describe ApiConstraints do
+RSpec.describe ApiConstraints do
   let(:api_constraints_v1) { ApiConstraints.new(version: 1) }
   let(:api_constraints_v2) { ApiConstraints.new(version: 2, default: true) }
 
