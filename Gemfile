@@ -31,6 +31,9 @@ gem 'jquery-rails'
 #Api gems
 gem 'active_model_serializers'
 
+#authentication
+gem 'devise'
+
 group :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
