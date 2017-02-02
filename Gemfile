@@ -33,6 +33,7 @@ gem 'active_model_serializers'
 
 #authentication
 gem 'devise'
+gem 'responders'
 
 group :test do
   gem 'rspec-rails'
